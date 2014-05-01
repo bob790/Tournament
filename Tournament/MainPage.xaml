@@ -1,0 +1,22 @@
+﻿<Page x:Class="Tournament.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="500"
+	Title="MainPage">
+
+    <Grid>
+        <Label x:Name="lblContestant1" Content="" HorizontalAlignment="Left" Margin="23,22,0,0" VerticalAlignment="Top" Height="44" Width="435" FontSize="25"/>
+        <Label x:Name="lblContestant2" Content="" HorizontalAlignment="Left" Margin="23,112,0,0" VerticalAlignment="Top" Height="44" Width="435" FontSize="25"/>
+        <Label x:Name="lblVersus" Content="Vs" HorizontalAlignment="Left" Margin="215,69,0,0" VerticalAlignment="Top" FontSize="21" Width="48"/>
+        <Button x:Name="btnContestant1" Content="" HorizontalAlignment="Left" Margin="23,178,0,0" VerticalAlignment="Top" Width="136" Click="btnContestant1_Click"/>
+        <Button x:Name="btnContestant2" Content="" HorizontalAlignment="Left" Margin="354,178,0,0" VerticalAlignment="Top" Width="136" Click="btnContestant2_Click"/>
+        <Button x:Name="btnEpisode" Content="Episode" Margin="213,178,0,0" VerticalAlignment="Top" Click="btnEpisode_Click" HorizontalAlignment="Left" Width="77"/>
+        <Label x:Name="lblLabelEpisode" Content="Episode" HorizontalAlignment="Left" Margin="215,224,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="lblEpisodeNumber" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="8" HorizontalAlignment="Left" Margin="215,258,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.375,-0.123" FontSize="42" FontFamily="Stencil Std" FontWeight="Bold" Height="62" Width="72" TextOptions.TextFormattingMode="Display" TextOptions.TextHintingMode="Fixed"/>
+        <Label x:Name="lblProgress" Content="Round 0 (00 Remaining)" HorizontalAlignment="Left" Margin="23,294,0,0" VerticalAlignment="Top" Width="267"/>
+
+    </Grid>
+</Page>
